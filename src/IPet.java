@@ -1,2 +1,3 @@
-public interface Pet {
+public interface IPet {
+    public abstract String playwith();
 }

@@ -1,4 +1,4 @@
-public enum CustomEnums {
+public enum AnimalType {
     MAMMAL,
     BIRD,
     REPTILE,

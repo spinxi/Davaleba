@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface IBird {
+public interface IBird {
+    public abstract String fly();
 }
