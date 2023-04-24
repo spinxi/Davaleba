@@ -1,5 +1,3 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
         Dog dog_obj = new Dog();
@@ -9,7 +7,7 @@ public class Main {
         dog_obj.setAge(5);
         dog_obj.setHabitat("Drinking");
         dog_obj.setType(AnimalType.MAMMAL);
-
+        //FROM CHILD CLASS
         dog_obj.setisCalm("CALM");
 
         //PARROT
@@ -17,7 +15,7 @@ public class Main {
         parrot_obj.setAge(2);
         parrot_obj.setHabitat("Sleeping");
         parrot_obj.setType(AnimalType.BIRD);
-
+        //FROM CHILD CLASS
         parrot_obj.setTalk("TALK");
 
         // PRINT INFO
