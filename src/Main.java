@@ -22,7 +22,7 @@ public class Main {
         String dogInfo = dog_obj.getInfo();
         String parrotInfo = parrot_obj.getInfo();
 
-        System.out.println(dog_obj.playwith() + "\n" + dogInfo + "\n\n" + parrot_obj.playwith() + "\n" + parrotInfo);
+        System.out.println(dog_obj.playwith() + "\n" + dogInfo + "\n\n" + parrot_obj.playwith() + ", " + parrot_obj.fly() +"\n" + parrotInfo);
 
     }
 }
